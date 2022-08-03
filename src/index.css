@@ -3,11 +3,6 @@
   margin: 0;
   padding: 0;
 }
-header {
-  height: 50px;
-  margin-bottom: 70px;
-  text-align: center;
-}
 
 body {
   font-family: "Poppins", sans-serif;
@@ -16,19 +11,27 @@ body {
   line-height: 1.6;
 }
 
-.container {
+.header {
+  height: 50px;
+  margin-bottom: 70px;
+  text-align: center;
+  color: aquamarine;
+}
+
+/* .container {
   max-width: 768px;
   margin: auto;
   padding: 0 20px;
-}
+} */
 
 .about {
   max-width: 768px;
   margin: auto;
-  text-align: center;
+  padding: 0 20px;
 }
-.about p {
-  margin: auto;
+.about h2 {
+  text-align: center;
+  color: gold;
 }
 
 .about-link a {
