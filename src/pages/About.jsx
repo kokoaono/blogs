@@ -1,5 +1,6 @@
-import React from "react";
 import myself from "../images/myself.jpg";
+import food from "../images/food.jpg";
+import food2 from "../images/food2.jpg";
 
 function About() {
   return (
@@ -18,7 +19,7 @@ function About() {
         <h2>Highlights</h2>
         <ul>
           <li>2021 - Start coding</li>
-          <li>2019 - Back to NZ, </li>
+          <li>2019 - Return to NZ </li>
           <li>2016 - 2019 Spent time in Mexico, Australia, and Moldives.</li>
           <li>
             2009 - Started to work as chef for Private clients, large sports
@@ -27,12 +28,15 @@ function About() {
           <li>2005 - Moved to NZ</li>
         </ul>
       </div>
-      <img
-        src={myself}
-        alt="me"
-        className="photo-myself"
-        style={{ borderRadius: "10%" }}
-      />
+      <div className="gallery">
+        <img src={myself} alt="me" />
+      </div>
+      <div className="gallery">
+        <img src={food} alt="table full of food" />
+      </div>{" "}
+      <div className="gallery">
+        <img src={food2} alt="salmon dish" />
+      </div>
     </div>
   );
 }

@@ -18,29 +18,36 @@ body {
   color: aquamarine;
 }
 
-/* .container {
-  max-width: 768px;
-  margin: auto;
-  padding: 0 20px;
-} */
-
 .about {
   max-width: 768px;
   margin: auto;
   padding: 0 20px;
 }
 .about h2 {
+  margin: 5px 10px;
   text-align: center;
   color: gold;
 }
 
-.about-link a {
-  color: #fff;
-  cursor: pointer;
+.gallery {
+  margin: 5px;
+  float: left;
+  width: 230px;
 }
-
-.photo-myself {
-  float: right;
-  width: 300px;
-  margin: 40px;
+.gallery img {
+  border-radius: 10%;
+  width: 100%;
+  height: auto;
+  width: 600;
+  height: 400;
+}
+.footer {
+  background-color: #fff;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 50px;
+  text-align: center;
+  color: black;
 }
