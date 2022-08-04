@@ -5,15 +5,17 @@ import food2 from "../images/food2.jpg";
 function About() {
   return (
     <div className="about">
-      <h2>Who am I?</h2>
+      <h2>Who Am I?</h2>
       <p>
         My name is Koko. I am originally from Japan and I have worked as a chef
         for many years.
         <br />
-        Recently, I wanted a career change so I started to teach myself coding
-        then completed the Bootcamp course through Enspiral Dev Academy in
-        Auckland. I want to broaden my horizons and pursue my new career. I am
-        exiperienced in React, Javascript, node.js, Express.js.
+        I come across coding while I was studying Paramedicine after returning
+        to NZ. I got more involved in coding over summer break, taught myself
+        and decided to take the Bootcamp course throught DevAcademy.
+        <br />
+        I want to be a FrontEnd developer. I value growth and have long term goals in mind to pursue new career as a developer.
+        I am exiperienced in React, Javascript, node.js, and Express.js.
       </p>
       <div>
         <h2>Highlights</h2>
